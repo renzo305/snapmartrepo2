@@ -13,7 +13,7 @@ class createEmail(unittest.TestCase, Keywords):
     def setUp(self):
         self.options = webdriver.ChromeOptions()
         self.options.add_argument("--incognito")
-        self.driver = webdriver.Chrome(executable_path=".\Chromedriver\chromedriver.exe", options=self.options)
+        self.driver = webdriver.Chrome(executable_path="chromedriver.exe", options=self.options)
         self.driver.maximize_window()
 
 
